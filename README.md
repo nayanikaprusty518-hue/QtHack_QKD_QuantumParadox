@@ -12,6 +12,13 @@ QT-SECURE PRO is a high-fidelity simulation suite designed to model **BB84 Quant
 * **SHA-256 Privacy Amplification:** Post-quantum cryptographic hashing to ensure maximum entropy in the final distilled key.
 * **Eavesdropper Detection:** Built-in module to demonstrate how the Heisenberg Uncertainty Principle reveals measurement by "Eve."
 
+## 🚀 Phase 2: Dynamic Lab Features (Newly Added)
+* **Variable Photon Flux:** High-capacity simulation supporting up to 1000 photons.
+* **Real-time Stream Processing:** Live visual feedback of photon measurement and basis reconciliation.
+* **Simulation Speed Control:** Toggle between Slow (Educational), Normal (Standard), and Fast (Stress-test) processing modes.
+* **End-to-End Secure Messaging:** Integrated XOR-encryption module to demonstrate final key utility.
+* **Forensic Analytics:** Exportable CSV reports for deep-dive quantum state analysis.
+
 ## 🔬 The Science (BB84 Protocol)
 The simulator follows the four-stage quantum cryptography process:
 1.  **Quantum Exchange:** Alice sends photons in random bases.
