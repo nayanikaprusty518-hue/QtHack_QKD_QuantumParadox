@@ -72,7 +72,7 @@ with col_ctrl:
     st.markdown(f"""
         <div style="margin-top: 50px; padding: 15px; border-radius: 8px; border: 1px solid rgba(0, 255, 204, 0.3); background-color: rgba(26, 28, 36, 0.5); text-align: center;">
             <p style="font-size: 0.7rem; letter-spacing: 2px; color: #00ffcc; margin-bottom: 5px; opacity: 0.8;">DEVELOPED BY</p>
-            <p style="font-size: 1rem; font-weight: bold; color: #ffffff; margin: 0;">TEAM QUANTUM PARADOX</p>
+            <p style="font-size: 1rem; font-weight: bold; color: #ffffff; margin: 0;">TEAM QUANTUM LOCKBREAKERS</p>
         </div>
     """, unsafe_allow_html=True)
 
