@@ -155,7 +155,7 @@ with col_viz:
             st.plotly_chart(fig_bar, use_container_width=True)
             # --- NEW: QUANTUM PHYSICS PROBABILITY SECTION ---
         st.markdown("---")
-        st.subheader("🔬 QUANTUM PHYSICS: MEASUREMENT PROBABILITY")
+        st.subheader("QUANTUM PHYSICS: MEASUREMENT PROBABILITY")
         p1, p2 = st.columns([1, 2])
         with p1:
             st.info("""
