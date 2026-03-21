@@ -36,4 +36,4 @@ The simulator follows the four-stage quantum cryptography process:
 The project is live at: [qt-secure-pro.streamlit.app](https://qt-secure-pro.streamlit.app/)
 
 ---
-**Team Quantum Paradox** *SRMIST Kattankulathur* *Members: Nayanika Prusty & Team*
+**Team Quantum Lockbreakers** *SRMIST Kattankulathur* *Members: Nayanika Prusty & Team*
