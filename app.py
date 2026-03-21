@@ -6,7 +6,7 @@ import hashlib
 import time
 
 # --- THE "WINNER" THEME & STYLING ---
-st.set_page_config(page_title="Qt-Secure | Quantum Key Distiller", layout="wide")
+st.set_page_config(page_title="Qt-Secure | Quantum Visual Simulator", layout="wide")
 
 st.markdown("""
     <style>
@@ -54,7 +54,7 @@ def run_qkd_protocol(n_bits, eve_present, noise_level):
     return alice_bits, alice_bases, bob_bases, bob_received
 
 # --- APP LAYOUT ---
-st.title("🛡️QT-SECURE PRO: QUANTUM KEY DISTILLER")
+st.title("🛡️QT-SECURE PRO: QUANTUM VISUAL SIMULATOR")
 st.caption("Advanced BB84 Simulation Environment v2.2 | SRMIST Kattankulathur")
 
 col_ctrl, col_viz = st.columns([1, 3])
