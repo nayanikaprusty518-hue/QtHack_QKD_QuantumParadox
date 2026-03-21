@@ -1,4 +1,4 @@
-# 🛡️ QT-SECURE PRO: Quantum Key Distiller
+# 🛡️ QT-SECURE PRO: Quantum Visual Simulator
 **Advanced BB84 Simulation Environment v2.2** *Developed by Team Quantum Paradox for QtHack 4.0*
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://qt-secure-pro.streamlit.app/)
