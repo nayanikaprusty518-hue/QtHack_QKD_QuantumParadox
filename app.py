@@ -153,6 +153,36 @@ with col_viz:
             fig_bar = go.Figure(data=[go.Bar(x=['Matches', 'Mismatches'], y=[total_matches, total_mismatches], marker_color=['#00ffcc', '#ff4b4b'])])
             fig_bar.update_layout(title="Photon Basis Comparison", height=200, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(color="#00ffcc"), margin=dict(l=0,r=0,t=30,b=0))
             st.plotly_chart(fig_bar, use_container_width=True)
+            # --- NEW: QUANTUM PHYSICS PROBABILITY SECTION ---
+        st.markdown("---")
+        st.subheader("🔬 QUANTUM PHYSICS: MEASUREMENT PROBABILITY")
+        p1, p2 = st.columns([1, 2])
+        with p1:
+            st.info("""
+            **The Physics:**
+            According to the **Heisenberg Uncertainty Principle**, measuring a quantum state in a non-orthogonal basis (mismatch) causes a probabilistic wavefunction collapse.
+            
+            * **Matched Basis:** 100% Deterministic (Certainty).
+            * **Mismatched Basis:** 50% Random (Collapse).
+            """)
+        with p2:
+            prob_fig = go.Figure(go.Bar(
+                x=['Matched Basis', 'Mismatched Basis'],
+                y=[100, 50],
+                marker_color=['#00ffcc', '#ff4b4b'],
+                text=['100% Certainty', '50% Probability'],
+                textposition='auto'
+            ))
+            prob_fig.update_layout(
+                title="Probability of Correct State Measurement",
+                height=250,
+                margin=dict(t=30, b=0, l=0, r=0),
+                paper_bgcolor='rgba(0,0,0,0)',
+                plot_bgcolor='rgba(0,0,0,0)',
+                font=dict(color="#00ffcc"),
+                yaxis=dict(range=[0, 110], showgrid=False)
+            )
+            st.plotly_chart(prob_fig, use_container_width=True)
 
         # STATUS: CHANNEL SECURITY SECTION
         st.subheader("STATUS: CHANNEL SECURITY")
